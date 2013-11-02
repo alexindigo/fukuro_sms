@@ -1,0 +1,23 @@
+{
+  "name": "fukuro",
+  "version": "0.0.1-25",
+  "author": "Alex Indigo <iam@alexindigo.com>",
+  "description": "SMS gate for Fukuro Game System",
+  "main": "server.js",
+  "scripts": {
+    "start": "server.js"
+  },
+  "repository": "",
+  "subdomain": "fukuro",
+  "engines": {
+    "node": "0.8.x"
+  },
+  "license": "MIT",
+  "analyze": false,
+  "dependencies": {
+    "socket.io": "~0.9.14",
+    "redis": "~0.8.3",
+    "socket.io-client": "~0.9.11"
+  },
+  "devDependencies": {}
+}
